@@ -22,6 +22,7 @@ export const Default: Story = {
         RenderingIdentifier: 'NavigationRenderingIdentifier',
       },
     },
+    fields: {},
     params: {
       styles: '',
     },
