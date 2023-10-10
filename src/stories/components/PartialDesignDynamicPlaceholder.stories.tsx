@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Default as PartialDesignDynamicPlaceholder } from 'src/components/PartialDesignDynamicPlaceholder';
+import PartialDesignDynamicPlaceholder from 'src/components/PartialDesignDynamicPlaceholder';
 
 const meta = {
   title: 'Example/PartialDesignDynamicPlaceholder',
