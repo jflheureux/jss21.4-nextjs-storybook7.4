@@ -24,6 +24,7 @@ export const Default: Story = {
     },
     params: {
       styles: '',
+      EnabledPlaceholders: 'placeholder1,placeholder2',
     },
   },
 };
