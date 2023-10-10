@@ -64,6 +64,7 @@
     "@storybook/blocks": "^7.4.6",
     "@storybook/nextjs": "^7.4.6",
     "@storybook/react": "^7.4.6",
+    "@storybook/test-runner": "^0.13.0",
     "@storybook/testing-library": "^0.2.2",
     "@types/node": "^18.11.18",
     "@types/react": "^18.0.12",
@@ -107,6 +108,7 @@
     "start:watch-components": "ts-node --project tsconfig.scripts.json scripts/generate-component-builder/index.ts --watch",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
     "generate-stories": "ts-node --project tsconfig.scripts.json scripts/generate-stories.ts"
   },
   "eslintConfig": {
