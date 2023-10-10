@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Default as ContentBlock } from 'src/components/ContentBlock';
+import ContentBlock from 'src/components/ContentBlock';
 
 const meta = {
   title: 'Example/ContentBlock',
