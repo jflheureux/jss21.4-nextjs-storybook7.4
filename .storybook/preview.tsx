@@ -1,5 +1,6 @@
 import React from 'react';
-import { SitecoreContextReactContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { SitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { componentBuilder } from 'temp/componentBuilder';
 import type { Preview } from '@storybook/react';
 
 import 'src/assets/main.scss';
@@ -28,9 +29,12 @@ const preview: Preview = {
   },
   decorators: [
     (Story) => (
-      <SitecoreContextReactContext.Provider value={mockLayoutData.sitecore}>
+      <SitecoreContext
+        componentFactory={componentBuilder.getComponentFactory({ isEditing: mockLayoutData.sitecore.context.pageEditing })}
+        layoutData={mockLayoutData}
+      >
         <Story />
-      </SitecoreContextReactContext.Provider>
+      </SitecoreContext>
     ),
   ],
 };
