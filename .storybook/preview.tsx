@@ -2,7 +2,7 @@ import React from 'react';
 import { SitecoreContextReactContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import type { Preview } from '@storybook/react';
 
-const mockLayoutData = {
+export const mockLayoutData = {
   sitecore: {
     context: {
       pageEditing: false,
