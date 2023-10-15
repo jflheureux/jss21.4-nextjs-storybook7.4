@@ -2,6 +2,8 @@ import React from 'react';
 import { SitecoreContextReactContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import type { Preview } from '@storybook/react';
 
+import 'src/assets/main.scss';
+
 export const mockLayoutData = {
   sitecore: {
     context: {
