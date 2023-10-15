@@ -18,12 +18,21 @@ export const Default: Story = {
   args: {
     rendering: {
       componentName: 'ContentBlock',
+      dataSource: 'truthyValue',
       params: {
         RenderingIdentifier: 'ContentBlockRenderingIdentifier',
       },
     },
     params: {
       styles: '',
+    },
+    fields: {
+      heading: {
+        value: 'Heading',
+      },
+      content: {
+        value: 'Content',
+      },
     },
   },
 };

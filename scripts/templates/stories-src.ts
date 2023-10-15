@@ -24,6 +24,7 @@ export const Default: Story = {
   args: {
     rendering: {
       componentName: '${componentName}',
+      datasource: 'truthyValue',
       params: {
         RenderingIdentifier: '${componentName}RenderingIdentifier',
       },
