@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Default as Navigation } from 'src/components/Navigation';
 
 const meta = {
-  title: 'Example/Navigation',
+  title: 'src/components/Navigation',
   component: Navigation,
   parameters: {
     layout: 'centered',

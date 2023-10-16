@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Default as RowSplitter } from 'src/components/RowSplitter';
 
 const meta = {
-  title: 'Example/RowSplitter',
+  title: 'src/components/RowSplitter',
   component: RowSplitter,
   parameters: {
     layout: 'centered',

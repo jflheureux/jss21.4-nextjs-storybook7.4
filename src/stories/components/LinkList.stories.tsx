@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Default as LinkList } from 'src/components/LinkList';
 
 const meta = {
-  title: 'Example/LinkList',
+  title: 'src/components/LinkList',
   component: LinkList,
   parameters: {
     layout: 'centered',

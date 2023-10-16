@@ -4,7 +4,7 @@ import { Default as ColumnSplitter } from 'src/components/ColumnSplitter';
 import { Default as ContentBlockDefaultStory } from './ContentBlock.stories';
 
 const meta = {
-  title: 'Example/ColumnSplitter',
+  title: 'src/components/ColumnSplitter',
   component: ColumnSplitter,
   parameters: {
     layout: 'centered',

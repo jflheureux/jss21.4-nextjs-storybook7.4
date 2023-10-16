@@ -9,7 +9,7 @@ function generateStoriesSrc(componentName: string, componentPath: string): strin
 import { Default as ${componentName} } from '${componentPath}${componentName}';
 
 const meta = {
-  title: 'Example/${componentName}',
+  title: '${componentPath}${componentName}',
   component: ${componentName},
   parameters: {
     layout: 'centered',

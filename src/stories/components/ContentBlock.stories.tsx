@@ -5,7 +5,7 @@ import ContentBlock from 'src/components/ContentBlock';
 import { mockLayoutData } from '../../../.storybook/preview';
 
 const meta = {
-  title: 'Example/ContentBlock',
+  title: 'src/components/ContentBlock',
   component: ContentBlock,
   parameters: {
     layout: 'centered',

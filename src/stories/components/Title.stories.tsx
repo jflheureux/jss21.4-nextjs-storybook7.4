@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Default as Title } from 'src/components/Title';
 
 const meta = {
-  title: 'Example/Title',
+  title: 'src/components/Title',
   component: Title,
   parameters: {
     layout: 'centered',

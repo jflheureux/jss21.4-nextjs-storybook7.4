@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Default as Promo } from 'src/components/Promo';
 
 const meta = {
-  title: 'Example/Promo',
+  title: 'src/components/Promo',
   component: Promo,
   parameters: {
     layout: 'centered',

@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import PartialDesignDynamicPlaceholder from 'src/components/PartialDesignDynamicPlaceholder';
 
 const meta = {
-  title: 'Example/PartialDesignDynamicPlaceholder',
+  title: 'src/components/PartialDesignDynamicPlaceholder',
   component: PartialDesignDynamicPlaceholder,
   parameters: {
     layout: 'centered',

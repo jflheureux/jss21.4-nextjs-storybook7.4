@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Default as RichText } from 'src/components/RichText';
 
 const meta = {
-  title: 'Example/RichText',
+  title: 'src/components/RichText',
   component: RichText,
   parameters: {
     layout: 'centered',
