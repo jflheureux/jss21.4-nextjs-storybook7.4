@@ -1,5 +1,5 @@
 import React from 'react';
-import { SitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import { LayoutServicePageState, SitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 import { componentBuilder } from 'temp/componentBuilder';
 import type { Preview } from '@storybook/react';
 
@@ -9,6 +9,7 @@ export const mockLayoutData = {
   sitecore: {
     context: {
       pageEditing: false,
+      pageState: LayoutServicePageState.Normal,
     },
     setContext: () => {
       // nothing

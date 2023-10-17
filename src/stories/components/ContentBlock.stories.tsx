@@ -1,4 +1,7 @@
-import { SitecoreContextReactContext } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  LayoutServicePageState,
+  SitecoreContextReactContext,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import type { Meta, StoryObj } from '@storybook/react';
 
 import ContentBlock from 'src/components/ContentBlock';
@@ -95,6 +98,7 @@ const noDatasourceInEditModeMockLayoutData = {
     ...mockLayoutData.sitecore,
     context: {
       pageEditing: true,
+      pageState: LayoutServicePageState.Edit,
     },
   },
 };
